@@ -1,0 +1,25 @@
+{
+  "name": "jssuper",
+  "version": "1.0.0",
+  "description": "The power of javascript+!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thainanluiz/JSSuper.git"
+  },
+  "keywords": [
+    "jssuper",
+    "javascript",
+    "super",
+    "power"
+  ],
+  "author": "thainanluiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thainanluiz/JSSuper/issues"
+  },
+  "homepage": "https://github.com/thainanluiz/JSSuper#readme"
+}
