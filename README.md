@@ -22,3 +22,13 @@ if(_.isANumber(5)){
     More code...
 }
 ```
+
+<br>
+
+- randomINT( min, max ) :
+  <br>
+  Return random number between min and max args
+
+```js
+console.log(_.randomINT(0, 10));
+```

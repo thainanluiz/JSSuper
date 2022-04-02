@@ -1,6 +1,6 @@
 {
   "name": "jssuper",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "The power of javascript+!",
   "main": "index.js",
   "scripts": {
