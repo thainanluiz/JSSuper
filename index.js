@@ -1,16 +1,29 @@
-function isANumber(number) {
-  try {
-    return typeof number == "number" ? true : false;
-  } catch (error) {
-    return false;
-  }
+// Is A Number function
+async function isANumber(value) {
+  return typeof value == "number" ? true : false;
 }
 
-function randomINT(min, max) {
+// Random Int between two numbers
+async function randomINT(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Delay
+async function delay(ms = 1000) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Repeater
+async function repeater(func, times, delay = 0) {
+  for (let i = 0; i < times; i++) {
+    await func();
+    await module.exports.delay(delay);
+  }
 }
 
 module.exports = {
   isANumber,
   randomINT,
+  delay,
+  repeater,
 };
