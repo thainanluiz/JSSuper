@@ -13,6 +13,13 @@ async function delay(ms = 1000) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Random Delay
+async function randomDelay() {
+  return new Promise((resolve) =>
+    setTimeout(resolve, Math.floor(Math.random() * (60000 - 0 + 1)) + 0)
+  );
+}
+
 // Repeater
 async function repeater(func, times, delay = 0) {
   for (let i = 0; i < times; i++) {
@@ -25,5 +32,6 @@ module.exports = {
   isANumber,
   randomINT,
   delay,
+  randomDelay,
   repeater,
 };
