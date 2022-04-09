@@ -56,6 +56,19 @@ Default delay ms value is 1000ms or 1s
 
 <br>
 
+- randomDelay( max ) :
+  <br>
+  Set an random delay
+
+```js
+await _.randomDelay(120000);
+console.log("It works");
+```
+
+Default max delay ms value is 60000ms or 1min
+
+<br>
+
 - repeater( function, times, delay ) :
   <br>
   Repeat the function a set number of times

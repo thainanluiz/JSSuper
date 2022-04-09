@@ -14,9 +14,9 @@ async function delay(ms = 1000) {
 }
 
 // Random Delay
-async function randomDelay() {
+async function randomDelay(max = 60000) {
   return new Promise((resolve) =>
-    setTimeout(resolve, Math.floor(Math.random() * (60000 - 0 + 1)) + 0)
+    setTimeout(resolve, Math.floor(Math.random() * (max - 0 + 1)) + 0)
   );
 }
 
