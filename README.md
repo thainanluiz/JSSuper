@@ -1,5 +1,10 @@
 # JSSUPER CORE
 
+```js
+The JSSUPER package will be completely reworked in the next release.
+Wait for version 2.0.0!
+```
+
 How to install
 
 ```shell
@@ -78,3 +83,14 @@ _.repeater(() => console.log("Hi"), 10, 1000);
 ```
 
 Default delay ms value is 0ms
+
+<br>
+
+- isset( value ) :
+  <br>
+  Similar to php, isset checks if the value in the variable is assigned
+
+```js
+let x;
+console.log(_.isset(x));
+```

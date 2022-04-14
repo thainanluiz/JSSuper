@@ -28,10 +28,15 @@ async function repeater(func, times, delay = 0) {
   }
 }
 
+function isset(value) {
+  return value !== undefined && value !== null;
+}
+
 module.exports = {
   isANumber,
   randomINT,
   delay,
   randomDelay,
   repeater,
+  isset,
 };
