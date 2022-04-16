@@ -10,7 +10,7 @@ How to install
 npm i jssuper
 ```
 
-Package available [here]
+Package available [here], current stable version [2.0.1]
 
 <br>
 
@@ -31,3 +31,4 @@ The entire [changelog here]
 [here]: https://www.npmjs.com/package/jssuper
 [examples]: https://github.com/thainanluiz/JSSuper/blob/main/examples/
 [changelog here]: https://github.com/thainanluiz/JSSuper/blob/main/CHANGELOG.md
+[2.0.1]: https://www.npmjs.com/package/jssuper/v/2.0.1

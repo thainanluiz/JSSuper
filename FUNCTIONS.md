@@ -54,7 +54,7 @@
 
 ## Deprecated functions:
 
-#### Everything will go away in version 2.1.0
+#### Everything will go away in version 3.0.0
 
 - isANumber( value )
   <br>

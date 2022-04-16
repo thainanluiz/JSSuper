@@ -1,5 +1,6 @@
 # Dependency directories
 node_modules/
+node_modules/jssuper/
 
 # Example directories
 examples/

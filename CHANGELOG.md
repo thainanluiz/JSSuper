@@ -2,6 +2,21 @@
 
 JSSUPER project updates.
 
+## [2.0.1] - 16/04/2022 - by [@thainanluiz].
+
+### Note
+
+Some people are using this package, because of this, the deprecated functions will be removed only in the next major update 3.0.0 and not the 2.1.0 update
+
+All deprecated functions are:
+
+- isANumber function.
+- randomINT function.
+- repeater function.
+- delay function.
+- randomDelay function.
+- isset function.
+
 ## [2.0.0] - 15/04/2022 - by [@thainanluiz].
 
 ### Added
@@ -77,3 +92,4 @@ JSSUPER project updates.
 [1.3.0]: https://www.npmjs.com/package/jssuper/v/1.3.0
 [1.4.0]: https://www.npmjs.com/package/jssuper/v/1.4.0
 [2.0.0]: https://www.npmjs.com/package/jssuper/v/2.0.0
+[2.0.1]: https://www.npmjs.com/package/jssuper/v/2.0.1
