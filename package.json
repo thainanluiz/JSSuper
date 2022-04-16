@@ -1,11 +1,8 @@
 {
   "name": "jssuper",
-  "version": "1.4.0",
-  "description": "The power of javascript+!",
+  "version": "2.0.0",
+  "description": "Simple add-on for JavaScript",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thainanluiz/JSSuper.git"
@@ -21,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/thainanluiz/JSSuper/issues"
   },
-  "homepage": "https://github.com/thainanluiz/JSSuper#readme"
+  "homepage": "https://github.com/thainanluiz/JSSuper#readme",
+  "dependencies": {
+    "jssuper": "^1.4.0"
+  }
 }

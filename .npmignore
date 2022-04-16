@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Example directories
+examples/
+
+# Images directories
+images/
+
+# Markdowns
+*.md
+
+# Model
+CHANGELOG.model.md

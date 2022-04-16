@@ -1,9 +1,8 @@
-# JSSUPER CORE
+# JSSUPER
 
-```js
-The JSSUPER package will be completely reworked in the next release.
-Wait for version 2.0.0!
-```
+#### Simple add-on for JavaScript
+
+![](https://github.com/thainanluiz/JSSuper/blob/main/images/logos/jssuper259x259.png)
 
 How to install
 
@@ -11,86 +10,24 @@ How to install
 npm i jssuper
 ```
 
+Package available [here]
+
 <br>
 
-How to use
+How to import
 
 ```js
 const jssuper = require("jssuper");
 ```
 
+See [functions.md] to see available functions
+<br>
+See [examples] folder
 <br>
 <br>
+The entire [changelog here]
 
-Available functions:
-
-- isANumber( value ) :
-  <br>
-  Return true or false
-
-```js
-if(_.isANumber(5)){
-    Your code...
-} else {
-    More code...
-}
-```
-
-<br>
-
-- randomINT( min, max ) :
-  <br>
-  Return random number between min and max args
-
-```js
-console.log(_.randomINT(0, 10));
-```
-
-<br>
-
-- delay( ms ) :
-  <br>
-  Set an delay
-
-```js
-await _.delay(5000);
-console.log("It works");
-```
-
-Default delay ms value is 1000ms or 1s
-
-<br>
-
-- randomDelay( max ) :
-  <br>
-  Set an random delay
-
-```js
-await _.randomDelay(120000);
-console.log("It works");
-```
-
-Default max delay ms value is 60000ms or 1min
-
-<br>
-
-- repeater( function, times, delay ) :
-  <br>
-  Repeat the function a set number of times
-
-```js
-_.repeater(() => console.log("Hi"), 10, 1000);
-```
-
-Default delay ms value is 0ms
-
-<br>
-
-- isset( value ) :
-  <br>
-  Similar to php, isset checks if the value in the variable is assigned
-
-```js
-let x;
-console.log(_.isset(x));
-```
+[functions.md]: https://github.com/thainanluiz/JSSuper/blob/main/FUNCTIONS.md
+[here]: https://www.npmjs.com/package/jssuper
+[examples]: https://github.com/thainanluiz/JSSuper/blob/main/examples/
+[changelog here]: https://github.com/thainanluiz/JSSuper/blob/main/CHANGELOG.md
