@@ -1,5 +1,11 @@
 ## Functions available
 
+#### 2.1.0
+
+- [genUUID](https://github.com/thainanluiz/JSSuper/blob/main/examples/genUUID.js)
+  <br>
+  Returns a random UUID.
+
 #### 2.0.0
 
 - [isNum](https://github.com/thainanluiz/JSSuper/blob/main/examples/isNum.js)( value )

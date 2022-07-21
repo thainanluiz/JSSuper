@@ -2,6 +2,16 @@
 
 JSSUPER project updates.
 
+## [2.1.0] - 20/07/2022 - by [@thainanluiz].
+
+### Note
+
+Just a little break for work and study...
+
+### Added
+
+- genUUID function.
+
 ## [2.0.1] - 16/04/2022 - by [@thainanluiz].
 
 ### Note
@@ -93,3 +103,4 @@ All deprecated functions are:
 [1.4.0]: https://www.npmjs.com/package/jssuper/v/1.4.0
 [2.0.0]: https://www.npmjs.com/package/jssuper/v/2.0.0
 [2.0.1]: https://www.npmjs.com/package/jssuper/v/2.0.1
+[2.1.0]: https://www.npmjs.com/package/jssuper/v/2.1.0

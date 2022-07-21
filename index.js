@@ -1,4 +1,13 @@
-// 2.0.0 Functions
+// Dependencies
+const c = require("crypto");
+
+// 2.1.X Functions
+// genUUID function
+function genUUID() {
+  return c.randomUUID();
+}
+
+// 2.0.X Functions
 // isNum function
 function isNum(value) {
   return typeof value == "number";
@@ -133,4 +142,5 @@ module.exports = {
   fixedDelay,
   dynamicDelay,
   fixedRepeater,
+  genUUID,
 };
