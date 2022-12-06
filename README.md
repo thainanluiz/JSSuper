@@ -1,8 +1,10 @@
 # JSSUPER
 
-#### Simple add-on for JavaScript
+## Simple add-on for JavaScript
 
-![](https://github.com/thainanluiz/JSSuper/blob/main/images/logos/jssuper259x259.png)
+![JSSuper logo](https://github.com/thainanluiz/JSSuper/blob/main/images/logos/jssuper259x259.png "Logo JSSuper")
+
+<br>
 
 How to install
 
@@ -10,7 +12,7 @@ How to install
 npm i jssuper
 ```
 
-Package available [here], current stable version [2.1.0]
+Package available [here] | current stable version [2.1.0] | current version [2.1.1]
 
 <br>
 
@@ -20,11 +22,10 @@ How to import
 const jssuper = require("jssuper");
 ```
 
-See [functions.md] to see available functions
 <br>
+
+See [functions.md] to get available functions
 See [examples] folder
-<br>
-<br>
 The entire [changelog here]
 
 [functions.md]: https://github.com/thainanluiz/JSSuper/blob/main/FUNCTIONS.md
@@ -32,3 +33,4 @@ The entire [changelog here]
 [examples]: https://github.com/thainanluiz/JSSuper/blob/main/examples/
 [changelog here]: https://github.com/thainanluiz/JSSuper/blob/main/CHANGELOG.md
 [2.1.0]: https://www.npmjs.com/package/jssuper/v/2.1.0
+[2.1.1]: https://www.npmjs.com/package/jssuper/v/2.1.1

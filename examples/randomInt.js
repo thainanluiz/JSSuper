@@ -1,7 +1,7 @@
 const jssuper = require("jssuper");
 
 // EX 1
-console.log(jssuper.randomInt(1, 99999999999999999999));
+console.log(jssuper.randomInt(1, 999));
 
 // EX 2
 let a = null;

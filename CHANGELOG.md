@@ -2,6 +2,12 @@
 
 JSSUPER project updates.
 
+## [2.1.1] - 06/12/2022 - by [@thainanluiz].
+
+### Added
+
+- extractor function.
+
 ## [2.1.0] - 20/07/2022 - by [@thainanluiz].
 
 ### Note
@@ -104,3 +110,4 @@ All deprecated functions are:
 [2.0.0]: https://www.npmjs.com/package/jssuper/v/2.0.0
 [2.0.1]: https://www.npmjs.com/package/jssuper/v/2.0.1
 [2.1.0]: https://www.npmjs.com/package/jssuper/v/2.1.0
+[2.1.1]: https://www.npmjs.com/package/jssuper/v/2.1.1

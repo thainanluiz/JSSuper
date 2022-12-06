@@ -56,9 +56,7 @@ async function fixedDelay(ms = 1000) {
 
 // dynamicDelay function
 async function dynamicDelay(max = 60000) {
-  return new Promise((resolve) =>
-    setTimeout(resolve, Math.floor(Math.random() * (max - 0 + 1)) + 0)
-  );
+  return new Promise((resolve) => setTimeout(resolve, Math.floor(Math.random() * (max - 0 + 1)) + 0));
 }
 
 // fixedRepeater function
@@ -67,6 +65,12 @@ async function fixedRepeater(func, times = 1, delay = 0) {
     await func();
     await fixedDelay(delay);
   }
+}
+
+// extractor function
+async function extractor(text, word) {
+  let regex = new RegExp(word, "g");
+  return text.replace(regex, "").replace(/\s+/g, " ").trim();
 }
 
 // Deprecated Functions
@@ -99,9 +103,7 @@ async function delay(ms = 1000) {
  * @deprecated Since version 2.0.0 Will be deleted in version 3.0.0 Use dynamicDelay instead.
  */
 async function randomDelay(max = 60000) {
-  return new Promise((resolve) =>
-    setTimeout(resolve, Math.floor(Math.random() * (max - 0 + 1)) + 0)
-  );
+  return new Promise((resolve) => setTimeout(resolve, Math.floor(Math.random() * (max - 0 + 1)) + 0));
 }
 
 // Old Repeater function
@@ -143,4 +145,5 @@ module.exports = {
   dynamicDelay,
   fixedRepeater,
   genUUID,
+  extractor,
 };
