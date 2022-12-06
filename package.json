@@ -1,6 +1,6 @@
 {
   "name": "jssuper",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Simple add-on for JavaScript",
   "main": "index.js",
   "repository": {

@@ -24,9 +24,9 @@ const jssuper = require("jssuper");
 
 <br>
 
-See [functions.md] to get available functions
-See [examples] folder
-The entire [changelog here]
+See [functions.md] to get available functions <br>
+See [examples] folder <br>
+The entire [changelog here] <br>
 
 [functions.md]: https://github.com/thainanluiz/JSSuper/blob/main/FUNCTIONS.md
 [here]: https://www.npmjs.com/package/jssuper
