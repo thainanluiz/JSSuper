@@ -2,6 +2,12 @@
 
 JSSUPER project updates.
 
+## [2.2.0] - 14/06/2024 - by [@thainanluiz].
+
+### Migration
+
+> **⚠️ Important: This project has been migrated to a new version/project. For more information, visit [TSSuper] at github.**
+
 ## [2.1.1] - 06/12/2022 - by [@thainanluiz].
 
 ### Added
@@ -111,3 +117,5 @@ All deprecated functions are:
 [2.0.1]: https://www.npmjs.com/package/jssuper/v/2.0.1
 [2.1.0]: https://www.npmjs.com/package/jssuper/v/2.1.0
 [2.1.1]: https://www.npmjs.com/package/jssuper/v/2.1.1
+[2.2.0]: https://www.npmjs.com/package/jssuper/v/2.2.0
+[TSSuper]: https://github.com/thainanluiz/TSSuper
